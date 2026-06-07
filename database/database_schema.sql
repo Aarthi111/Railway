@@ -72,8 +72,8 @@ INSERT INTO trains (train_number, train_name, train_type, total_seats, available
 ('11019', 'Coimbatore-Chennai Local', 'LOCAL', 150, 150);
 
 INSERT INTO routes (train_id, source_city, destination_city, departure_time, arrival_time, distance_km, base_fare, travel_date, available_seats) VALUES
-(1, 'Chennai', 'Madurai', '10:30:00', '14:45:00', 185, 450.00, '2024-12-25', 100),
-(1, 'Chennai', 'Madurai', '15:00:00', '19:15:00', 185, 450.00, '2024-12-26', 100),
-(2, 'Madurai', 'Bangalore', '08:00:00', '18:30:00', 420, 780.00, '2024-12-25', 120),
-(3, 'Chennai', 'Bangalore', '22:00:00', '06:30:00', 350, 850.00, '2024-12-25', 80),
-(4, 'Coimbatore', 'Chennai', '06:00:00', '11:30:00', 140, 350.00, '2024-12-25', 150);
+(1, 'Chennai', 'Madurai', '10:30:00', '14:45:00', 185, 450.00, '2026-08-08', 100),
+(1, 'Chennai', 'Madurai', '15:00:00', '19:15:00', 185, 450.00, '2026-08-09', 100),
+(2, 'Madurai', 'Bangalore', '08:00:00', '18:30:00', 420, 780.00, '2026-08-10', 120),
+(3, 'Chennai', 'Bangalore', '22:00:00', '06:30:00', 350, 850.00, '2026-08-11', 80),
+(4, 'Coimbatore', 'Chennai', '06:00:00', '11:30:00', 140, 350.00, '2026-08-12', 150);
